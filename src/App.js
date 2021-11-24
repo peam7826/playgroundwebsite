@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import NavigationBar from './components/Navigationbar.js';
-import Welcomebar from './components/Welcomebar.js';
-
+import "./App.css";
+import NavigationBar from "./components/Navigationbar.js";
+import Welcomebar from "./components/Welcomebar.js";
+import Navbar from "./components/Navigationbar/index";
 function App() {
   return (
     <div className="App">
-        <NavigationBar />
-        <Welcomebar />
+      <Navbar />
+      <NavigationBar />
+      <Welcomebar />
     </div>
   );
 }

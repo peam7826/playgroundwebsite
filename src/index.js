@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "antd/dist/antd.css";
+import "./index.css";
+import { Layout, Breadcrumb } from "antd";
+import NavigationBar from "./components/Navigationbar/index.js";
+
+const { Header, Content, Footer } = Layout;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Layout className="layout">
+    <Header>
+      <div className="logo" />
+      <NavigationBar />
+    </Header>
+    <Content style={{ padding: "0 50px" }}>
+      <Breadcrumb style={{ margin: "16px 0" }}>
+        <Breadcrumb.Item>Home</Breadcrumb.Item>
+        <Breadcrumb.Item>List</Breadcrumb.Item>
+        <Breadcrumb.Item>App</Breadcrumb.Item>
+      </Breadcrumb>
+      <div className="site-layout-content">Content</div>
+    </Content>
+    <Footer style={{ textAlign: "center" }}>Playground Co.,Ltd ©2021</Footer>
+  </Layout>,
+  document.getElementById("container")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
