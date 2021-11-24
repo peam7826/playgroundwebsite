@@ -1,11 +1,10 @@
-import './Welcomebar.css';
+import "./Welcomebar.css";
 
-function Welcomebar(){
-    return(
-    <div className = "Welcomebar">
-    <h2>WELCOME</h2>  
-    <h2>KUY TOY</h2>
+function Welcomebar() {
+  return (
+    <div className="Welcomebar">
+      <p>WELCOME! Anupatra Ruchutrakool</p>
     </div>
-    )
+  );
 }
-export default Welcomebar
+export default Welcomebar;
