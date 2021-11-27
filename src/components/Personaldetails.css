@@ -1,0 +1,44 @@
+.Personaldetails{
+/* Personal Details Bar */
+
+
+    position: absolute;
+    width: 531px;
+    height: 118px;
+    left: 75px;
+    top: 795px;
+    
+    background: #2F1A3B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.Personaldetails2{
+/* Personal Details Info */
+position: absolute;
+width: 531px;
+height: 725px;
+
+background: #F8F8F8;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+overflow : auto;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/*display: flex;*/
+color:#442D57;
+text-align: left;
+
+
+
+}
