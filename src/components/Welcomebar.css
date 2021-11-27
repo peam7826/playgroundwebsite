@@ -1,9 +1,13 @@
 .Welcomebar {
   /* WELCOME! Anupatra Ruchutrakool */
-  color: aliceblue;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
   margin: auto;
   text-align: center;
   background: #2f1a3b;
   margin: 10px;
   padding: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
 }
